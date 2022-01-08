@@ -20,9 +20,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
-# Inherit some common Revenge stuff
-$(call inherit-product, vendor/revengeos/config/common.mk)
-$(call inherit-product, vendor/revengeos/config/gsm.mk)
+# Inherit some common ReloadedOS stuff
+$(call inherit-product, vendor/reloaded/config/common.mk)
 
 # Inherit from santoni device
 $(call inherit-product, device/xiaomi/santoni/device.mk)
@@ -34,7 +33,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4X
 PRODUCT_DEVICE := santoni
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := revengeos_santoni
+PRODUCT_NAME := reloaded_santoni
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
