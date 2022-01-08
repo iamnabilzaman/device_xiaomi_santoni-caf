@@ -27,7 +27,6 @@ $(call inherit-product, vendor/reloaded/config/common.mk)
 $(call inherit-product, device/xiaomi/santoni/device.mk)
 
 TARGET_BOOT_ANIMATION_RES := 720
-IS_PHONE := true
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4X
