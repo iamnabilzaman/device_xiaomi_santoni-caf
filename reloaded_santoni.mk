@@ -28,12 +28,10 @@ $(call inherit-product, vendor/revengeos/config/gsm.mk)
 $(call inherit-product, device/xiaomi/santoni/device.mk)
 
 TARGET_BOOT_ANIMATION_RES := 720
-REVENGEOS_BUILDTYPE := OFFICIAL
-TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
 
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi 4
+PRODUCT_MODEL := Redmi 4X
 PRODUCT_DEVICE := santoni
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_NAME := revengeos_santoni
